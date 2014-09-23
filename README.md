@@ -5,5 +5,16 @@ This is based on Simone.
 ## Usage
 
 * Create a Wordpress instance
-* Clone this repo into ```wordpress/wp-content/themes/mas```
+* Create a `mas` directory within `wp-content/themes/`
+* Clone this repo into ```wordpress/wp-content/themes/mas```:
+
+```sh
+cd <wordpress installation>
+cd wp-content/themes
+mkdir mas
+cd mas
+
+git clone git@github.com:moneyadviceservice/blog.git .
+```
+
 * Work away
