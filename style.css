@@ -180,7 +180,6 @@ input[type="reset"],
 input[type="submit"] {
   padding: 1em 2em;
   font-size: 16px;
-  font-size: 1.6rem;
   font-family: 'museo_sans';
   text-transform: uppercase;
   line-height: 1;
@@ -195,7 +194,7 @@ input[type="submit"] {
   /* Corrects inability to style clickable 'input' types in iOS */
 }
 
-/* line 144, stylesheets/_legacy_theme.scss */
+/* line 143, stylesheets/_legacy_theme.scss */
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
@@ -204,7 +203,7 @@ input[type="submit"]:hover {
   background: black;
 }
 
-/* line 152, stylesheets/_legacy_theme.scss */
+/* line 151, stylesheets/_legacy_theme.scss */
 button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -217,27 +216,27 @@ input[type="submit"]:active {
   background: black;
 }
 
-/* line 164, stylesheets/_legacy_theme.scss */
+/* line 163, stylesheets/_legacy_theme.scss */
 input[type="checkbox"],
 input[type="radio"] {
   padding: 0;
   /* Addresses excess padding in IE8/9 */
 }
 
-/* line 169, stylesheets/_legacy_theme.scss */
+/* line 168, stylesheets/_legacy_theme.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* Addresses appearance set to searchfield in S5, Chrome */
   width: 100%;
 }
 
-/* line 174, stylesheets/_legacy_theme.scss */
+/* line 173, stylesheets/_legacy_theme.scss */
 input[type="search"]::-webkit-search-decoration {
   /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
   -webkit-appearance: none;
 }
 
-/* line 178, stylesheets/_legacy_theme.scss */
+/* line 177, stylesheets/_legacy_theme.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
@@ -245,7 +244,7 @@ input::-moz-focus-inner {
   border: 0;
 }
 
-/* line 184, stylesheets/_legacy_theme.scss */
+/* line 183, stylesheets/_legacy_theme.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -258,7 +257,7 @@ textarea {
   border: 1px solid #ccc;
 }
 
-/* line 196, stylesheets/_legacy_theme.scss */
+/* line 195, stylesheets/_legacy_theme.scss */
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
@@ -268,7 +267,7 @@ textarea:focus {
   color: #111;
 }
 
-/* line 205, stylesheets/_legacy_theme.scss */
+/* line 204, stylesheets/_legacy_theme.scss */
 textarea {
   width: 100%;
   vertical-align: top;
@@ -277,14 +276,13 @@ textarea {
   /* Removes default vertical scrollbar in IE6/7/8/9 */
 }
 
-/* line 212, stylesheets/_legacy_theme.scss */
+/* line 211, stylesheets/_legacy_theme.scss */
 .comment-awaiting-moderation {
   /* Green background color to make moderation seem less aggressive */
   padding: .5rem 1rem;
   margin: 1rem 0;
   font-family: 'museo_sans', sans-serif;
   font-size: 16px;
-  font-size: 1.6rem;
   color: #fff;
   color: white;
   background: #84bd68;
@@ -297,20 +295,20 @@ textarea {
 /*--------------------------------------------------------------
 5.1 Links
 --------------------------------------------------------------*/
-/* line 230, stylesheets/_legacy_theme.scss */
+/* line 228, stylesheets/_legacy_theme.scss */
 a {
   text-decoration: none;
   color: #000;
   color: black;
 }
 
-/* line 236, stylesheets/_legacy_theme.scss */
+/* line 234, stylesheets/_legacy_theme.scss */
 a:visited {
   color: #333;
   color: #333333;
 }
 
-/* line 241, stylesheets/_legacy_theme.scss */
+/* line 239, stylesheets/_legacy_theme.scss */
 a:hover,
 a:focus,
 a:active {
@@ -318,34 +316,33 @@ a:active {
 }
 
 /* Small menu */
-/* line 248, stylesheets/_legacy_theme.scss */
+/* line 246, stylesheets/_legacy_theme.scss */
 .menu-toggle {
   display: none;
   cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 254, stylesheets/_legacy_theme.scss */
+  /* line 252, stylesheets/_legacy_theme.scss */
   .menu-toggle {
     display: inline-block;
     height: 3.9em;
     padding: 0 1em;
     font-weight: normal;
     font-size: 14px;
-    font-size: 1.4rem;
     text-decoration: none;
     line-height: 3.75em;
     color: white;
   }
 
-  /* line 266, stylesheets/_legacy_theme.scss */
+  /* line 263, stylesheets/_legacy_theme.scss */
   .menu-toggle a:hover,
   .menu-toggle a:focus {
     text-decoration: underline;
     color: #000;
   }
 
-  /* line 272, stylesheets/_legacy_theme.scss */
+  /* line 269, stylesheets/_legacy_theme.scss */
   .main-navigation.toggled .nav-menu {
     display: block;
     border-top: 1px solid;
@@ -353,40 +350,40 @@ a:active {
     border-top-color: rgba(255, 255, 255, 0.5);
   }
 
-  /* line 279, stylesheets/_legacy_theme.scss */
+  /* line 276, stylesheets/_legacy_theme.scss */
   .main-navigation ul {
     display: none;
     padding-left: 0;
   }
 
-  /* line 284, stylesheets/_legacy_theme.scss */
+  /* line 281, stylesheets/_legacy_theme.scss */
   .main-navigation li {
     float: none;
   }
 
-  /* line 286, stylesheets/_legacy_theme.scss */
+  /* line 283, stylesheets/_legacy_theme.scss */
   .main-navigation li a {
     padding: 1.3em 2em;
   }
 
-  /* line 288, stylesheets/_legacy_theme.scss */
+  /* line 285, stylesheets/_legacy_theme.scss */
   .main-navigation li li a {
     padding-left: 4em;
   }
 
-  /* line 290, stylesheets/_legacy_theme.scss */
+  /* line 287, stylesheets/_legacy_theme.scss */
   .main-navigation li li li a {
     padding-left: 6em;
   }
 
-  /* line 292, stylesheets/_legacy_theme.scss */
+  /* line 289, stylesheets/_legacy_theme.scss */
   .main-navigation li:hover > a,
   .main-navigation li > a:focus {
     text-decoration: underline;
     color: #000;
   }
 
-  /* line 298, stylesheets/_legacy_theme.scss */
+  /* line 295, stylesheets/_legacy_theme.scss */
   .main-navigation ul ul,
   .main-navigation ul ul ul {
     position: relative;
@@ -398,12 +395,12 @@ a:active {
     background: #303030;
   }
 
-  /* line 309, stylesheets/_legacy_theme.scss */
+  /* line 306, stylesheets/_legacy_theme.scss */
   .main-navigation ul ul a {
     width: 100%;
   }
 
-  /* line 311, stylesheets/_legacy_theme.scss */
+  /* line 308, stylesheets/_legacy_theme.scss */
   .main-navigation ul a:hover,
   .main-navigation ul ul a:hover,
   .main-navigation ul a:focus,
@@ -412,18 +409,18 @@ a:active {
     color: #000;
   }
 
-  /* line 319, stylesheets/_legacy_theme.scss */
+  /* line 316, stylesheets/_legacy_theme.scss */
   .main-navigation .current_page_ancestor {
     background: inherit;
   }
 
-  /* line 321, stylesheets/_legacy_theme.scss */
+  /* line 318, stylesheets/_legacy_theme.scss */
   .main-navigation ul ul .current_page_parent {
     color: inherit;
     background: inherit;
   }
 
-  /* line 326, stylesheets/_legacy_theme.scss */
+  /* line 323, stylesheets/_legacy_theme.scss */
   .main-navigation .current_page_item > a,
   .main-navigation .current_page_item > a:hover,
   .main-navigation .current_page_item li:hover,
@@ -438,20 +435,20 @@ a:active {
 }
 /* End responsive menu */
 /* Social Menu */
-/* line 342, stylesheets/_legacy_theme.scss */
+/* line 339, stylesheets/_legacy_theme.scss */
 .menu-social ul {
   float: right;
   text-align: center;
   list-style: none;
 }
 
-/* line 348, stylesheets/_legacy_theme.scss */
+/* line 345, stylesheets/_legacy_theme.scss */
 .menu-social ul li {
   position: relative;
   display: inline-block;
 }
 
-/* line 353, stylesheets/_legacy_theme.scss */
+/* line 350, stylesheets/_legacy_theme.scss */
 .menu-social li a:before {
   display: inline-block;
   vertical-align: top;
@@ -463,68 +460,68 @@ a:active {
   content: '\f08e';
 }
 
-/* line 364, stylesheets/_legacy_theme.scss */
+/* line 361, stylesheets/_legacy_theme.scss */
 .menu-social li a[href*="dribbble.com"]::before {
   content: '\f17d';
 }
 
-/* line 366, stylesheets/_legacy_theme.scss */
+/* line 363, stylesheets/_legacy_theme.scss */
 .menu-social li a[href*="facebook.com"]::before {
   content: '\f09a';
 }
 
-/* line 368, stylesheets/_legacy_theme.scss */
+/* line 365, stylesheets/_legacy_theme.scss */
 .menu-social li a[href*="flickr.com"]::before {
   content: '\f16e';
 }
 
-/* line 370, stylesheets/_legacy_theme.scss */
+/* line 367, stylesheets/_legacy_theme.scss */
 .menu-social li a[href*="github.com"]::before {
   content: '\f09b';
 }
 
-/* line 372, stylesheets/_legacy_theme.scss */
+/* line 369, stylesheets/_legacy_theme.scss */
 .menu-social li a[href*="plus.google.com"]::before {
   content: '\f0d5';
 }
 
-/* line 374, stylesheets/_legacy_theme.scss */
+/* line 371, stylesheets/_legacy_theme.scss */
 .menu-social li a[href*="instagram.com"]::before {
   content: '\f16d';
 }
 
-/* line 376, stylesheets/_legacy_theme.scss */
+/* line 373, stylesheets/_legacy_theme.scss */
 .menu-social li a[href*="linkedin.com"]::before {
   content: '\f0e1';
 }
 
-/* line 378, stylesheets/_legacy_theme.scss */
+/* line 375, stylesheets/_legacy_theme.scss */
 .menu-social li a[href*="pinterest.com"]::before {
   content: '\f0d2';
 }
 
-/* line 380, stylesheets/_legacy_theme.scss */
+/* line 377, stylesheets/_legacy_theme.scss */
 .menu-social li a[href*="tumblr.com"]::before {
   content: '\f173';
 }
 
-/* line 382, stylesheets/_legacy_theme.scss */
+/* line 379, stylesheets/_legacy_theme.scss */
 .menu-social li a[href*="twitter.com"]::before {
   content: '\f099';
 }
 
-/* line 384, stylesheets/_legacy_theme.scss */
+/* line 381, stylesheets/_legacy_theme.scss */
 .menu-social li a[href*="vimeo.com"]::before {
   content: '\f194';
 }
 
-/* line 386, stylesheets/_legacy_theme.scss */
+/* line 383, stylesheets/_legacy_theme.scss */
 .menu-social li a[href*="youtube.com"]::before {
   content: '\f167';
 }
 
 @media screen and (max-width: 600px) {
-  /* line 389, stylesheets/_legacy_theme.scss */
+  /* line 386, stylesheets/_legacy_theme.scss */
   #menu-social ul {
     position: absolute;
     top: 0;
@@ -532,25 +529,24 @@ a:active {
     display: block;
   }
 
-  /* line 396, stylesheets/_legacy_theme.scss */
+  /* line 393, stylesheets/_legacy_theme.scss */
   #menu-social li a {
     padding-left: .5em;
     padding-right: .5em;
   }
 }
 /* Paging navigation */
-/* line 404, stylesheets/_legacy_theme.scss */
+/* line 401, stylesheets/_legacy_theme.scss */
 .site-main .comment-navigation,
 .site-main .paging-navigation,
 .site-main .post-navigation {
   font-size: 18px;
-  font-size: 1.8rem;
   font-family: 'museo_sans', sans-serif;
   color: #000;
   color: black;
 }
 
-/* line 414, stylesheets/_legacy_theme.scss */
+/* line 410, stylesheets/_legacy_theme.scss */
 .post-nav-box {
   padding: 2em 0;
   margin-bottom: 4em;
@@ -558,7 +554,7 @@ a:active {
   border-bottom: #cccccc solid 1px;
 }
 
-/* line 421, stylesheets/_legacy_theme.scss */
+/* line 417, stylesheets/_legacy_theme.scss */
 .comment-navigation .nav-previous,
 .paging-navigation .nav-previous,
 .post-navigation .nav-previous {
@@ -567,7 +563,7 @@ a:active {
   padding-right: 15%;
 }
 
-/* line 429, stylesheets/_legacy_theme.scss */
+/* line 425, stylesheets/_legacy_theme.scss */
 .comment-navigation .nav-next,
 .paging-navigation .nav-next,
 .post-navigation .nav-next {
@@ -577,18 +573,18 @@ a:active {
   text-align: right;
 }
 
-/* line 438, stylesheets/_legacy_theme.scss */
+/* line 434, stylesheets/_legacy_theme.scss */
 .nav-indicator {
   margin-bottom: 1em;
 }
 
-/* line 440, stylesheets/_legacy_theme.scss */
+/* line 436, stylesheets/_legacy_theme.scss */
 .nav-previous h1,
 .nav-next h1 {
   font-weight: 900;
 }
 
-/* line 443, stylesheets/_legacy_theme.scss */
+/* line 439, stylesheets/_legacy_theme.scss */
 .comment-navigation {
   padding: 1em 0;
   margin: 3em 0;
@@ -596,13 +592,13 @@ a:active {
   border-bottom: #cccccc solid 1px;
 }
 
-/* line 450, stylesheets/_legacy_theme.scss */
+/* line 446, stylesheets/_legacy_theme.scss */
 .comment-navigation i {
   margin: 0 1em;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 453, stylesheets/_legacy_theme.scss */
+  /* line 449, stylesheets/_legacy_theme.scss */
   .comment-navigation .nav-previous,
   .post-navigation .nav-previous,
   .comment-navigation .nav-next,
@@ -613,23 +609,23 @@ a:active {
     text-align: left;
   }
 
-  /* line 463, stylesheets/_legacy_theme.scss */
+  /* line 459, stylesheets/_legacy_theme.scss */
   .comment-navigation .nav-next,
   .post-navigation .nav-next {
     margin-top: 4rem;
   }
 }
-/* line 467, stylesheets/_legacy_theme.scss */
+/* line 463, stylesheets/_legacy_theme.scss */
 .paging-navigation ul {
   margin: 0;
 }
 
-/* line 469, stylesheets/_legacy_theme.scss */
+/* line 465, stylesheets/_legacy_theme.scss */
 .paging-navigation li {
   display: inline;
 }
 
-/* line 471, stylesheets/_legacy_theme.scss */
+/* line 467, stylesheets/_legacy_theme.scss */
 a.page-numbers,
 span.page-numbers {
   padding: .3em .7em;
@@ -637,14 +633,14 @@ span.page-numbers {
   color: #333333;
 }
 
-/* line 478, stylesheets/_legacy_theme.scss */
+/* line 474, stylesheets/_legacy_theme.scss */
 a:hover.page-numbers,
 a:focus.page-numbers {
   color: #000;
   color: black;
 }
 
-/* line 484, stylesheets/_legacy_theme.scss */
+/* line 480, stylesheets/_legacy_theme.scss */
 .paging-navigation .current {
   font-weight: bold;
   color: #000;
@@ -655,7 +651,7 @@ a:focus.page-numbers {
 6.0 Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers */
-/* line 495, stylesheets/_legacy_theme.scss */
+/* line 491, stylesheets/_legacy_theme.scss */
 .screen-reader-text {
   position: absolute !important;
   height: 1px;
@@ -664,7 +660,7 @@ a:focus.page-numbers {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-/* line 503, stylesheets/_legacy_theme.scss */
+/* line 499, stylesheets/_legacy_theme.scss */
 .screen-reader-text:hover,
 .screen-reader-text:active,
 .screen-reader-text:focus {
@@ -690,7 +686,7 @@ a:focus.page-numbers {
 /*--------------------------------------------------------------
 7.0 Alignments
 --------------------------------------------------------------*/
-/* line 527, stylesheets/_legacy_theme.scss */
+/* line 523, stylesheets/_legacy_theme.scss */
 .alignleft {
   display: inline;
   float: left;
@@ -698,7 +694,7 @@ a:focus.page-numbers {
   margin-bottom: 1em;
 }
 
-/* line 534, stylesheets/_legacy_theme.scss */
+/* line 530, stylesheets/_legacy_theme.scss */
 .alignright {
   display: inline;
   float: right;
@@ -706,7 +702,7 @@ a:focus.page-numbers {
   margin-left: 1.5em;
 }
 
-/* line 541, stylesheets/_legacy_theme.scss */
+/* line 537, stylesheets/_legacy_theme.scss */
 .aligncenter {
   display: block;
   margin: 0 auto 1.6em;
@@ -715,13 +711,13 @@ a:focus.page-numbers {
 
 /* Alignment responsive */
 @media screen and (min-width: 1320px) {
-  /* line 549, stylesheets/_legacy_theme.scss */
+  /* line 545, stylesheets/_legacy_theme.scss */
   .alignleft {
     margin-left: -160px;
   }
 }
 @media screen and (min-width: 1820px) {
-  /* line 553, stylesheets/_legacy_theme.scss */
+  /* line 549, stylesheets/_legacy_theme.scss */
   .alignright {
     margin-right: -160px;
   }
@@ -729,7 +725,7 @@ a:focus.page-numbers {
 /*--------------------------------------------------------------
 8.0 Clearings
 --------------------------------------------------------------*/
-/* line 559, stylesheets/_legacy_theme.scss */
+/* line 555, stylesheets/_legacy_theme.scss */
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -746,7 +742,7 @@ a:focus.page-numbers {
   content: '';
 }
 
-/* line 575, stylesheets/_legacy_theme.scss */
+/* line 571, stylesheets/_legacy_theme.scss */
 .clear:after,
 .entry-content:after,
 .comment-content:after,
@@ -759,7 +755,7 @@ a:focus.page-numbers {
 /*--------------------------------------------------------------
 9.0 Header
 --------------------------------------------------------------*/
-/* line 586, stylesheets/_legacy_theme.scss */
+/* line 582, stylesheets/_legacy_theme.scss */
 .site-branding {
   padding: 6rem 0;
   text-align: center;
@@ -767,7 +763,7 @@ a:focus.page-numbers {
   background: #0586bd;
 }
 
-/* line 593, stylesheets/_legacy_theme.scss */
+/* line 589, stylesheets/_legacy_theme.scss */
 .title-box {
   width: 600px;
   max-width: 75%;
@@ -777,46 +773,44 @@ a:focus.page-numbers {
   border: solid 1px rgba(255, 255, 255, 0.3);
 }
 
-/* line 602, stylesheets/_legacy_theme.scss */
+/* line 598, stylesheets/_legacy_theme.scss */
 .site-title {
   font-weight: 700;
   font-size: 40px;
-  font-size: 4.5rem;
   text-transform: uppercase;
   line-height: normal;
   padding-bottom: 1rem;
 }
 
-/* line 614, stylesheets/_legacy_theme.scss */
+/* line 609, stylesheets/_legacy_theme.scss */
 .header-image {
   padding: 10px 0 10px 7.7em;
 }
 
-/* line 618, stylesheets/_legacy_theme.scss */
+/* line 613, stylesheets/_legacy_theme.scss */
 .site-description {
   font-weight: 100;
   font-size: 20px;
-  font-size: 2rem;
 }
 
-/* line 624, stylesheets/_legacy_theme.scss */
+/* line 618, stylesheets/_legacy_theme.scss */
 .site-branding a {
   text-decoration: none;
 }
 
-/* line 626, stylesheets/_legacy_theme.scss */
+/* line 620, stylesheets/_legacy_theme.scss */
 .site-title a,
 .site-description {
   color: #fff;
   color: white;
 }
 
-/* line 632, stylesheets/_legacy_theme.scss */
+/* line 626, stylesheets/_legacy_theme.scss */
 .header-image img {
   display: block;
 }
 
-/* line 636, stylesheets/_legacy_theme.scss */
+/* line 630, stylesheets/_legacy_theme.scss */
 .header-background-image {
   background: no-repeat center;
   background-size: cover !important;
@@ -824,7 +818,7 @@ a:focus.page-numbers {
   -webkit-background-size: cover !important;
 }
 
-/* line 643, stylesheets/_legacy_theme.scss */
+/* line 637, stylesheets/_legacy_theme.scss */
 .header-background-image .title-box {
   background: #333;
   background: rgba(0, 0, 0, 0.7);
@@ -832,12 +826,12 @@ a:focus.page-numbers {
 
 /* Header responsive */
 @media screen and (max-width: 900px) {
-  /* line 650, stylesheets/_legacy_theme.scss */
+  /* line 644, stylesheets/_legacy_theme.scss */
   .site-branding {
     padding: 0;
   }
 
-  /* line 652, stylesheets/_legacy_theme.scss */
+  /* line 646, stylesheets/_legacy_theme.scss */
   .title-box {
     max-width: 100%;
     margin: 0 auto;
@@ -846,13 +840,13 @@ a:focus.page-numbers {
   }
 }
 @media screen and (max-width: 399px) {
-  /* line 661, stylesheets/_legacy_theme.scss */
+  /* line 655, stylesheets/_legacy_theme.scss */
   .title-box {
     padding: 2rem;
   }
 }
 /* Header search */
-/* line 666, stylesheets/_legacy_theme.scss */
+/* line 660, stylesheets/_legacy_theme.scss */
 .search-toggle {
   float: right;
   width: 54px;
@@ -864,49 +858,48 @@ a:focus.page-numbers {
   cursor: pointer;
 }
 
-/* line 677, stylesheets/_legacy_theme.scss */
+/* line 671, stylesheets/_legacy_theme.scss */
 .search-toggle:hover,
 .search-toggle.active {
   background: #4d4d4d;
   background: #4d4d4d;
 }
 
-/* line 683, stylesheets/_legacy_theme.scss */
+/* line 677, stylesheets/_legacy_theme.scss */
 .search-toggle .screen-reader-text {
   top: 0;
   right: 0;
 }
 
-/* line 687, stylesheets/_legacy_theme.scss */
+/* line 681, stylesheets/_legacy_theme.scss */
 .search-box-wrapper {
   z-index: 2;
   width: 100%;
 }
 
-/* line 691, stylesheets/_legacy_theme.scss */
+/* line 685, stylesheets/_legacy_theme.scss */
 .search-box {
   padding: 1em;
   background: #4d4d4d;
   background: #4d4d4d;
 }
 
-/* line 697, stylesheets/_legacy_theme.scss */
+/* line 691, stylesheets/_legacy_theme.scss */
 .search-box .search-field {
   max-width: 362px;
   float: right;
   padding: 1rem 2rem 1rem 4rem;
   font-size: 20px;
-  font-size: 2rem;
   background-color: #fff;
   border: 0;
 }
 
-/* line 707, stylesheets/_legacy_theme.scss */
+/* line 700, stylesheets/_legacy_theme.scss */
 .hide {
   display: none;
 }
 
-/* line 709, stylesheets/_legacy_theme.scss */
+/* line 702, stylesheets/_legacy_theme.scss */
 .error404 .search-submit,
 .search .search-submit,
 .search-box .search-submit {
@@ -914,7 +907,7 @@ a:focus.page-numbers {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 714, stylesheets/_legacy_theme.scss */
+  /* line 707, stylesheets/_legacy_theme.scss */
   .search-toggle {
     position: absolute;
     top: 0;
@@ -925,15 +918,14 @@ a:focus.page-numbers {
 /*--------------------------------------------------------------
 9.0 Widgets
 --------------------------------------------------------------*/
-/* line 725, stylesheets/_legacy_theme.scss */
+/* line 718, stylesheets/_legacy_theme.scss */
 .widget {
   margin: 0 0 4em;
   font-family: 'museo_sans', sans-serif;
   font-size: 16px;
-  font-size: 1.6rem;
 }
 
-/* line 732, stylesheets/_legacy_theme.scss */
+/* line 724, stylesheets/_legacy_theme.scss */
 .widget-title {
   margin-bottom: 1em;
   font-size: 24px;
@@ -941,7 +933,7 @@ a:focus.page-numbers {
   font-weight: 500;
 }
 
-/* line 739, stylesheets/_legacy_theme.scss */
+/* line 731, stylesheets/_legacy_theme.scss */
 .widget ul,
 .widget ol {
   padding: 0;
@@ -949,23 +941,23 @@ a:focus.page-numbers {
   list-style-type: none;
 }
 
-/* line 746, stylesheets/_legacy_theme.scss */
+/* line 738, stylesheets/_legacy_theme.scss */
 .widget li {
   padding: 1em 0 0;
 }
 
-/* line 748, stylesheets/_legacy_theme.scss */
+/* line 740, stylesheets/_legacy_theme.scss */
 .widget li ul,
 .widget li ol {
   margin-top: 0;
 }
 
-/* line 751, stylesheets/_legacy_theme.scss */
+/* line 743, stylesheets/_legacy_theme.scss */
 .widget li li {
   margin-left: 1.5em;
 }
 
-/* line 753, stylesheets/_legacy_theme.scss */
+/* line 745, stylesheets/_legacy_theme.scss */
 .widget_nav_menu a,
 .widget_pages a {
   display: block;
@@ -973,18 +965,18 @@ a:focus.page-numbers {
   border-bottom: solid 1px #e6e6e6;
 }
 
-/* line 760, stylesheets/_legacy_theme.scss */
+/* line 752, stylesheets/_legacy_theme.scss */
 .widget_nav_menu li,
 .widget_pages li {
   padding-top: 0;
 }
 
-/* line 763, stylesheets/_legacy_theme.scss */
+/* line 755, stylesheets/_legacy_theme.scss */
 .widget_rss li {
   margin-bottom: .5em;
 }
 
-/* line 765, stylesheets/_legacy_theme.scss */
+/* line 757, stylesheets/_legacy_theme.scss */
 .widget_rss .rss-date,
 .widget_rss cite {
   display: block;
@@ -992,23 +984,23 @@ a:focus.page-numbers {
 }
 
 /* Make sure select elements fit in widgets */
-/* line 772, stylesheets/_legacy_theme.scss */
+/* line 764, stylesheets/_legacy_theme.scss */
 .widget select {
   max-width: 100%;
 }
 
 /* Search widget */
-/* line 775, stylesheets/_legacy_theme.scss */
+/* line 767, stylesheets/_legacy_theme.scss */
 .widget_search .search-submit {
   display: none;
 }
 
-/* line 777, stylesheets/_legacy_theme.scss */
+/* line 769, stylesheets/_legacy_theme.scss */
 .footer-widgets {
   margin: 0 auto;
 }
 
-/* line 779, stylesheets/_legacy_theme.scss */
+/* line 771, stylesheets/_legacy_theme.scss */
 .footer-widgets .widget-title,
 .footer-widgets .widget a:hover,
 .footer-widgets .widget a:focus {
@@ -1018,7 +1010,7 @@ a:focus.page-numbers {
   border-color: white;
 }
 
-/* line 788, stylesheets/_legacy_theme.scss */
+/* line 780, stylesheets/_legacy_theme.scss */
 .footer-widgets .widget {
   float: left;
   width: 320px;
@@ -1027,12 +1019,12 @@ a:focus.page-numbers {
 
 /* Footer widgets responsive */
 @media screen and (max-width: 879px) {
-  /* line 796, stylesheets/_legacy_theme.scss */
+  /* line 788, stylesheets/_legacy_theme.scss */
   #footer-widgets {
     width: 100% !important;
   }
 
-  /* line 798, stylesheets/_legacy_theme.scss */
+  /* line 790, stylesheets/_legacy_theme.scss */
   .footer-widgets .widget {
     float: none;
     width: 100%;
@@ -1045,14 +1037,13 @@ a:focus.page-numbers {
 /*--------------------------------------------------------------
 10.1 Posts and pages
 --------------------------------------------------------------*/
-/* line 904, stylesheets/_legacy_theme.scss */
+/* line 896, stylesheets/_legacy_theme.scss */
 blockquote cite {
   font-size: 18px;
-  font-size: 1.8rem;
 }
 
 /* Blockquotes */
-/* line 910, stylesheets/_legacy_theme.scss */
+/* line 901, stylesheets/_legacy_theme.scss */
 blockquote {
   margin-bottom: 1em;
   margin-left: -130px;
@@ -1066,7 +1057,7 @@ blockquote {
   float: left;
 }
 
-/* line 923, stylesheets/_legacy_theme.scss */
+/* line 914, stylesheets/_legacy_theme.scss */
 blockquote.alignleft {
   float: left;
   width: 50%;
@@ -1074,7 +1065,7 @@ blockquote.alignleft {
   margin-right: 2em;
 }
 
-/* line 930, stylesheets/_legacy_theme.scss */
+/* line 921, stylesheets/_legacy_theme.scss */
 blockquote.alignright {
   float: right;
   width: 50%;
@@ -1084,80 +1075,71 @@ blockquote.alignright {
 
 /* Smaller fonts for smaller screens */
 @media screen and (max-width: 680px) {
-  /* line 940, stylesheets/_legacy_theme.scss */
+  /* line 931, stylesheets/_legacy_theme.scss */
   .header-image {
     padding-left: 2em;
   }
 
-  /* line 944, stylesheets/_legacy_theme.scss */
+  /* line 935, stylesheets/_legacy_theme.scss */
   .main-navigation {
     padding-left: 0.65em;
   }
 
-  /* line 948, stylesheets/_legacy_theme.scss */
+  /* line 939, stylesheets/_legacy_theme.scss */
   blockquote {
     margin-left: 0;
     padding: 0;
   }
 
-  /* line 954, stylesheets/_legacy_theme.scss */
+  /* line 945, stylesheets/_legacy_theme.scss */
   .entry-title {
     font-size: 32px;
-    font-size: 3.2rem;
     line-height: 1.3em;
   }
 
-  /* line 959, stylesheets/_legacy_theme.scss */
+  /* line 950, stylesheets/_legacy_theme.scss */
   .entry-content h1 {
     font-size: 28px;
-    font-size: 2.8rem;
   }
 
-  /* line 964, stylesheets/_legacy_theme.scss */
+  /* line 955, stylesheets/_legacy_theme.scss */
   .entry-content h2 {
     font-size: 26px;
-    font-size: 2.6rem;
   }
 
-  /* line 969, stylesheets/_legacy_theme.scss */
+  /* line 960, stylesheets/_legacy_theme.scss */
   .entry-content h3 {
     font-size: 24px;
-    font-size: 2.4rem;
   }
 
-  /* line 974, stylesheets/_legacy_theme.scss */
+  /* line 965, stylesheets/_legacy_theme.scss */
   .entry-content h4 {
     font-size: 22px;
-    font-size: 2.2rem;
   }
 
-  /* line 979, stylesheets/_legacy_theme.scss */
+  /* line 970, stylesheets/_legacy_theme.scss */
   .entry-content h5 {
     font-size: 20px;
-    font-size: 2rem;
   }
 
-  /* line 984, stylesheets/_legacy_theme.scss */
+  /* line 975, stylesheets/_legacy_theme.scss */
   .entry-content h6 {
     font-size: 18px;
-    font-size: 1.8rem;
   }
 
-  /* line 989, stylesheets/_legacy_theme.scss */
+  /* line 980, stylesheets/_legacy_theme.scss */
   .entry-content p,
   .entry-content ul,
   .entry-content ol {
     font-size: 18px;
-    font-size: 1.8rem;
   }
 
-  /* line 997, stylesheets/_legacy_theme.scss */
+  /* line 988, stylesheets/_legacy_theme.scss */
   blockquote cite {
     font-size: 14px;
-    font-size: 1.4rem;
   }
 }
-/* line 1003, stylesheets/_legacy_theme.scss */
+/* line 994, stylesheets/_legacy_theme.scss */
 .index-box blockquote.alignleft,
 .index-box blockquote.alignright {
   background: #fff;
@@ -1165,12 +1147,12 @@ blockquote.alignright {
   border: none;
 }
 
-/* line 1010, stylesheets/_legacy_theme.scss */
+/* line 1001, stylesheets/_legacy_theme.scss */
 blockquote em {
   font-style: normal;
 }
 
-/* line 1014, stylesheets/_legacy_theme.scss */
+/* line 1005, stylesheets/_legacy_theme.scss */
 blockquote cite {
   display: block;
   margin-top: 1em;
@@ -1183,26 +1165,26 @@ blockquote cite {
 
 /* Blockquotes responsive */
 @media screen and (min-width: 1820px) {
-  /* line 1026, stylesheets/_legacy_theme.scss */
+  /* line 1017, stylesheets/_legacy_theme.scss */
   .index-box blockquote.alignright {
     padding-right: 2em;
   }
 }
 @media screen and (min-width: 1320px) {
-  /* line 1030, stylesheets/_legacy_theme.scss */
+  /* line 1021, stylesheets/_legacy_theme.scss */
   .index-box blockquote.alignleft {
     padding-left: 2em;
   }
 }
 @media screen and (max-width: 780px) {
-  /* line 1034, stylesheets/_legacy_theme.scss */
+  /* line 1025, stylesheets/_legacy_theme.scss */
   blockquote.alignleft,
   blockquote.alignright {
     width: 40%;
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 1039, stylesheets/_legacy_theme.scss */
+  /* line 1030, stylesheets/_legacy_theme.scss */
   blockquote.alignleft,
   blockquote.alignright {
     width: 100%;
@@ -1210,69 +1192,67 @@ blockquote cite {
   }
 }
 /* Image borders for white-on-white images */
-/* line 1048, stylesheets/_legacy_theme.scss */
+/* line 1039, stylesheets/_legacy_theme.scss */
 .border-gray {
   border: #b9b9b9 solid 1px;
   border: #bfbfbf solid 1px;
 }
 
-/* line 1053, stylesheets/_legacy_theme.scss */
+/* line 1044, stylesheets/_legacy_theme.scss */
 .border-black {
   border: #000 solid 1px;
   border: black solid 1px;
 }
 
-/* line 1058, stylesheets/_legacy_theme.scss */
+/* line 1049, stylesheets/_legacy_theme.scss */
 .border-custom {
   border: #6DBCDB solid 1px;
   border: #bd3f05 solid 1px;
 }
 
 /* Meta */
-/* line 1064, stylesheets/_legacy_theme.scss */
+/* line 1055, stylesheets/_legacy_theme.scss */
 .category-list {
   margin: 1.3em 0 1em;
   font-family: 'museo_sans', sans-serif;
   font-size: 16px;
-  font-size: 1.6rem;
 }
 
-/* line 1071, stylesheets/_legacy_theme.scss */
+/* line 1061, stylesheets/_legacy_theme.scss */
 .category-list a {
   color: #333;
   color: #1a1a1a;
 }
 
-/* line 1076, stylesheets/_legacy_theme.scss */
+/* line 1066, stylesheets/_legacy_theme.scss */
 .category-list a:hover,
 .category-list a:focus {
   color: #000;
   color: black;
 }
 
-/* line 1082, stylesheets/_legacy_theme.scss */
+/* line 1072, stylesheets/_legacy_theme.scss */
 .entry-meta {
   margin-bottom: 2rem;
   padding: 0;
   font-family: 'museo_sans', sans-serif;
   font-size: 14px;
-  font-size: 1.4rem;
 }
 
-/* line 1090, stylesheets/_legacy_theme.scss */
+/* line 1079, stylesheets/_legacy_theme.scss */
 .entry-meta a {
   font-weight: 600;
 }
 
 /* Hides 'on' and '.' in post meta on wide screens. */
-/* line 1093, stylesheets/_legacy_theme.scss */
+/* line 1082, stylesheets/_legacy_theme.scss */
 .mobile-hide {
   display: inline;
 }
 
 /* Meta responsive */
 @media screen and (min-width: 1320px) {
-  /* line 1099, stylesheets/_legacy_theme.scss */
+  /* line 1088, stylesheets/_legacy_theme.scss */
   .single .entry-meta {
     position: absolute;
     width: 120px;
@@ -1280,7 +1260,7 @@ blockquote cite {
     text-align: right;
   }
 
-  /* line 1106, stylesheets/_legacy_theme.scss */
+  /* line 1095, stylesheets/_legacy_theme.scss */
   .single .byline,
   .single .posted-on,
   .single .comments-link {
@@ -1288,40 +1268,39 @@ blockquote cite {
     margin-bottom: 1em;
   }
 
-  /* line 1113, stylesheets/_legacy_theme.scss */
+  /* line 1102, stylesheets/_legacy_theme.scss */
   .single .author {
     display: block;
   }
 
-  /* line 1115, stylesheets/_legacy_theme.scss */
+  /* line 1104, stylesheets/_legacy_theme.scss */
   .single .mobile-hide {
     display: none;
   }
 }
-/* line 1120, stylesheets/_legacy_theme.scss */
+/* line 1109, stylesheets/_legacy_theme.scss */
 .entry-footer {
   margin-top: 3rem;
   margin-bottom: 5rem;
   font-family: 'museo_sans', sans-serif;
 }
 
-/* line 1126, stylesheets/_legacy_theme.scss */
+/* line 1115, stylesheets/_legacy_theme.scss */
 .entry-footer ul {
   padding: 0;
   margin: 0;
   font-size: 16px;
-  font-size: 1.6rem;
   line-height: 2em;
   list-style-type: none;
 }
 
-/* line 1135, stylesheets/_legacy_theme.scss */
+/* line 1124, stylesheets/_legacy_theme.scss */
 .entry-footer li {
   display: inline-block;
   margin-right: 4rem;
 }
 
-/* line 1140, stylesheets/_legacy_theme.scss */
+/* line 1129, stylesheets/_legacy_theme.scss */
 .entry-footer i {
   margin-right: .5rem;
 }
@@ -1329,7 +1308,7 @@ blockquote cite {
 /*--------------------------------------------------------------
 10.2 Index and Archive
 --------------------------------------------------------------*/
-/* line 1145, stylesheets/_legacy_theme.scss */
+/* line 1134, stylesheets/_legacy_theme.scss */
 .taxonomy-description {
   padding-top: 2rem;
   margin: 2rem 0;
@@ -1339,27 +1318,26 @@ blockquote cite {
   border-bottom: 1px solid #bfbfbf;
 }
 
-/* line 1154, stylesheets/_legacy_theme.scss */
+/* line 1143, stylesheets/_legacy_theme.scss */
 .sticky-post {
   position: absolute;
   top: 1rem;
   right: 3rem;
 }
 
-/* line 1160, stylesheets/_legacy_theme.scss */
+/* line 1149, stylesheets/_legacy_theme.scss */
 .continue-reading {
   margin: 0 4rem;
   font-weight: 900;
   font-size: 18px;
-  font-size: 1.8rem;
 }
 
-/* line 1167, stylesheets/_legacy_theme.scss */
+/* line 1155, stylesheets/_legacy_theme.scss */
 .continue-reading i {
   margin-left: .5em;
 }
 
-/* line 1169, stylesheets/_legacy_theme.scss */
+/* line 1157, stylesheets/_legacy_theme.scss */
 .search-no-results .content-area,
 .error404 .content-area {
   margin-top: 4rem;
@@ -1368,7 +1346,7 @@ blockquote cite {
 /*--------------------------------------------------------------
 10.3 Asides
 --------------------------------------------------------------*/
-/* line 1175, stylesheets/_legacy_theme.scss */
+/* line 1163, stylesheets/_legacy_theme.scss */
 .format-aside .entry-content {
   margin-top: 1em;
 }
@@ -1376,46 +1354,44 @@ blockquote cite {
 /*--------------------------------------------------------------
 10.4 Image Attachments
 --------------------------------------------------------------*/
-/* line 1181, stylesheets/_legacy_theme.scss */
+/* line 1169, stylesheets/_legacy_theme.scss */
 .attachment .entry-title {
   margin-top: .7em;
 }
 
-/* line 1183, stylesheets/_legacy_theme.scss */
+/* line 1171, stylesheets/_legacy_theme.scss */
 .entry-attachment {
   margin-bottom: 3rem;
 }
 
-/* line 1185, stylesheets/_legacy_theme.scss */
+/* line 1173, stylesheets/_legacy_theme.scss */
 .attachment-caption {
   font-size: 14px;
-  font-size: 1.4rem;
   font-family: 'museo_sans', sans-serif;
 }
 
 /*--------------------------------------------------------------
 10.5 Comments
 --------------------------------------------------------------*/
-/* line 1196, stylesheets/_legacy_theme.scss */
+/* line 1183, stylesheets/_legacy_theme.scss */
 .comments-title {
   font-weight: 900;
   font-size: 36px;
-  font-size: 3.6rem;
 }
 
-/* line 1202, stylesheets/_legacy_theme.scss */
+/* line 1188, stylesheets/_legacy_theme.scss */
 .comments-area > ol {
   padding: 0;
   margin: 2em 0;
   list-style-type: none;
 }
 
-/* line 1208, stylesheets/_legacy_theme.scss */
+/* line 1194, stylesheets/_legacy_theme.scss */
 ol.children {
   list-style-type: none;
 }
 
-/* line 1210, stylesheets/_legacy_theme.scss */
+/* line 1196, stylesheets/_legacy_theme.scss */
 .comment-author .avatar {
   display: block;
   float: left;
@@ -1423,72 +1399,69 @@ ol.children {
   margin-right: 20px;
 }
 
-/* line 1217, stylesheets/_legacy_theme.scss */
+/* line 1203, stylesheets/_legacy_theme.scss */
 .comment-author .fn {
   font-weight: 900;
   font-family: 'museo_sans', sans-serif;
   font-size: 20px;
-  font-size: 2rem;
 }
 
-/* line 1224, stylesheets/_legacy_theme.scss */
+/* line 1209, stylesheets/_legacy_theme.scss */
 .comment-metadata {
   font-size: 14px;
-  font-size: 1.4rem;
 }
 
-/* line 1229, stylesheets/_legacy_theme.scss */
+/* line 1213, stylesheets/_legacy_theme.scss */
 .comment-meta {
   margin-bottom: 1em;
 }
 
-/* line 1231, stylesheets/_legacy_theme.scss */
+/* line 1215, stylesheets/_legacy_theme.scss */
 .comment-content {
   font-size: 90%;
 }
 
-/* line 1233, stylesheets/_legacy_theme.scss */
+/* line 1217, stylesheets/_legacy_theme.scss */
 .comment-content,
 .reply {
   margin-left: 70px;
 }
 
-/* line 1236, stylesheets/_legacy_theme.scss */
+/* line 1220, stylesheets/_legacy_theme.scss */
 .comment-body {
   padding-bottom: 2em;
   margin-bottom: 2em;
   border-bottom: solid #cccccc 1px;
 }
 
-/* line 1242, stylesheets/_legacy_theme.scss */
+/* line 1226, stylesheets/_legacy_theme.scss */
 .comment-list ol {
   margin-left: 50px;
 }
 
-/* line 1244, stylesheets/_legacy_theme.scss */
+/* line 1228, stylesheets/_legacy_theme.scss */
 .comment-content a {
   word-wrap: break-word;
 }
 
-/* line 1246, stylesheets/_legacy_theme.scss */
+/* line 1230, stylesheets/_legacy_theme.scss */
 .reply {
   font-weight: 600;
   font-size: 14px;
-  font-size: 1.4rem;
   font-family: 'museo_sans', sans-serif;
 }
 
-/* line 1253, stylesheets/_legacy_theme.scss */
+/* line 1237, stylesheets/_legacy_theme.scss */
 .comment-content a {
   word-wrap: break-word;
 }
 
-/* line 1255, stylesheets/_legacy_theme.scss */
+/* line 1239, stylesheets/_legacy_theme.scss */
 .comment-content ol {
   margin-left: 1.5em;
 }
 
-/* line 1257, stylesheets/_legacy_theme.scss */
+/* line 1241, stylesheets/_legacy_theme.scss */
 .bypostauthor > .comment-body {
   position: relative;
   padding: 1em;
@@ -1499,52 +1472,49 @@ ol.children {
 
 /* Comments responsive */
 @media screen and (max-width: 600px) {
-  /* line 1267, stylesheets/_legacy_theme.scss */
+  /* line 1251, stylesheets/_legacy_theme.scss */
   .comment-list ol {
     margin-left: 0;
   }
 
-  /* line 1269, stylesheets/_legacy_theme.scss */
+  /* line 1253, stylesheets/_legacy_theme.scss */
   .comment-content ol {
     margin-left: 1.5em;
   }
 
-  /* line 1271, stylesheets/_legacy_theme.scss */
+  /* line 1255, stylesheets/_legacy_theme.scss */
   .comment-content,
   .reply {
     margin-left: 0;
   }
 }
-/* line 1275, stylesheets/_legacy_theme.scss */
+/* line 1259, stylesheets/_legacy_theme.scss */
 .comment-reply-title {
   margin-bottom: .5em;
   font-weight: 900;
   font-size: 30px;
-  font-size: 3rem;
 }
 
-/* line 1282, stylesheets/_legacy_theme.scss */
+/* line 1266, stylesheets/_legacy_theme.scss */
 .comment-form {
   padding-bottom: 4rem;
   font-family: 'museo_sans', sans-serif;
   font-size: 16px;
-  font-size: 1.6rem;
 }
 
-/* line 1289, stylesheets/_legacy_theme.scss */
+/* line 1273, stylesheets/_legacy_theme.scss */
 .comment-form textarea {
   font-family: 'museo_sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 18px;
-  font-size: 1.8rem;
 }
 
-/* line 1296, stylesheets/_legacy_theme.scss */
+/* line 1280, stylesheets/_legacy_theme.scss */
 .comment-form label {
   display: block;
 }
 
-/* line 1298, stylesheets/_legacy_theme.scss */
+/* line 1282, stylesheets/_legacy_theme.scss */
 .required {
   color: red;
 }
@@ -1552,7 +1522,7 @@ ol.children {
 /*--------------------------------------------------------------
 10.6 Author Box
 --------------------------------------------------------------*/
-/* line 1303, stylesheets/_legacy_theme.scss */
+/* line 1287, stylesheets/_legacy_theme.scss */
 .reveal-bio {
   max-width: 780px;
   max-width: 78rem;
@@ -1560,20 +1530,19 @@ ol.children {
   background: #fff;
 }
 
-/* line 1310, stylesheets/_legacy_theme.scss */
+/* line 1294, stylesheets/_legacy_theme.scss */
 .reveal-bio a {
   display: block;
   padding: 2rem 0;
   margin: 0 auto;
   font-weight: 700;
   font-size: 26px;
-  font-size: 2.6rem;
   color: #bfbfbf;
   color: #bfbfbf;
   text-align: center;
 }
 
-/* line 1322, stylesheets/_legacy_theme.scss */
+/* line 1306, stylesheets/_legacy_theme.scss */
 .reveal-bio a:hover,
 .reveal-bio a:focus {
   text-decoration: none;
@@ -1581,76 +1550,74 @@ ol.children {
   color: black;
 }
 
-/* line 1329, stylesheets/_legacy_theme.scss */
+/* line 1313, stylesheets/_legacy_theme.scss */
 .shorter {
   padding: 0 0 4rem !important;
 }
 
-/* line 1331, stylesheets/_legacy_theme.scss */
+/* line 1315, stylesheets/_legacy_theme.scss */
 .hide-fix {
   padding: 0 !important;
   margin-bottom: 2rem !important;
 }
 
-/* line 1337, stylesheets/_legacy_theme.scss */
+/* line 1321, stylesheets/_legacy_theme.scss */
 .author-info {
   padding-top: 1rem;
   margin: 0 4rem;
 }
 
-/* line 1342, stylesheets/_legacy_theme.scss */
+/* line 1326, stylesheets/_legacy_theme.scss */
 .author-avatar {
   float: left;
   margin: 0 2rem 0 0;
 }
 
-/* line 1347, stylesheets/_legacy_theme.scss */
+/* line 1331, stylesheets/_legacy_theme.scss */
 .author-avatar img {
   display: block;
 }
 
-/* line 1349, stylesheets/_legacy_theme.scss */
+/* line 1333, stylesheets/_legacy_theme.scss */
 .author-title {
   margin-bottom: .8rem;
   font-size: 36px;
-  font-size: 3.6rem;
   line-height: 1;
 }
 
-/* line 1356, stylesheets/_legacy_theme.scss */
+/* line 1340, stylesheets/_legacy_theme.scss */
 .author-meta {
   border-bottom: 16px solid #f2f2f2;
   margin-bottom: 2rem;
   font-family: 'museo_sans', sans-serif;
 }
 
-/* line 1362, stylesheets/_legacy_theme.scss */
+/* line 1346, stylesheets/_legacy_theme.scss */
 .share-and-more {
   padding: .1rem 0 1.1rem;
   font-weight: 700;
   font-size: 16px;
-  font-size: 1.6rem;
 }
 
-/* line 1369, stylesheets/_legacy_theme.scss */
+/* line 1353, stylesheets/_legacy_theme.scss */
 .author-social-media {
   display: inline-block;
 }
 
-/* line 1371, stylesheets/_legacy_theme.scss */
+/* line 1355, stylesheets/_legacy_theme.scss */
 .author-social-media a {
   margin-left: 1.5rem;
   color: #000;
   color: black;
 }
 
-/* line 1377, stylesheets/_legacy_theme.scss */
+/* line 1361, stylesheets/_legacy_theme.scss */
 .author-social-media a:hover,
 .author-social-media a:focus {
   text-decoration: none;
 }
 
-/* line 1380, stylesheets/_legacy_theme.scss */
+/* line 1364, stylesheets/_legacy_theme.scss */
 a.author-link {
   font-weight: 900;
   font-family: 'museo_sans', sans-serif;
@@ -1658,12 +1625,12 @@ a.author-link {
   color: black;
 }
 
-/* line 1387, stylesheets/_legacy_theme.scss */
+/* line 1371, stylesheets/_legacy_theme.scss */
 .author-link i {
   margin-left: 1rem;
 }
 
-/* line 1389, stylesheets/_legacy_theme.scss */
+/* line 1373, stylesheets/_legacy_theme.scss */
 .author-meta,
 .author-description {
   margin-left: 12rem;
@@ -1671,7 +1638,7 @@ a.author-link {
 
 /* Author Box responsive */
 @media screen and (max-width: 600px) {
-  /* line 1394, stylesheets/_legacy_theme.scss */
+  /* line 1378, stylesheets/_legacy_theme.scss */
   .author-meta,
   .author-description {
     margin-left: 0;
@@ -1681,7 +1648,7 @@ a.author-link {
 11.0 Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-/* line 1402, stylesheets/_legacy_theme.scss */
+/* line 1386, stylesheets/_legacy_theme.scss */
 .infinite-scroll .paging-navigation,
 .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
@@ -1689,7 +1656,7 @@ a.author-link {
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
-/* line 1407, stylesheets/_legacy_theme.scss */
+/* line 1391, stylesheets/_legacy_theme.scss */
 .infinity-end.neverending .site-footer {
   display: block;
 }
@@ -1697,7 +1664,7 @@ a.author-link {
 /*--------------------------------------------------------------
 12.0 Media
 --------------------------------------------------------------*/
-/* line 1414, stylesheets/_legacy_theme.scss */
+/* line 1398, stylesheets/_legacy_theme.scss */
 .page-content img.wp-smiley,
 .entry-content img.wp-smiley,
 .comment-content img.wp-smiley {
@@ -1707,40 +1674,39 @@ a.author-link {
   border: none;
 }
 
-/* line 1423, stylesheets/_legacy_theme.scss */
+/* line 1407, stylesheets/_legacy_theme.scss */
 .wp-caption {
   max-width: 100%;
   margin-bottom: 1.5em;
 }
 
-/* line 1428, stylesheets/_legacy_theme.scss */
+/* line 1412, stylesheets/_legacy_theme.scss */
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 0 auto;
 }
 
-/* line 1433, stylesheets/_legacy_theme.scss */
+/* line 1417, stylesheets/_legacy_theme.scss */
 .wp-caption-text {
   text-align: center;
 }
 
-/* line 1435, stylesheets/_legacy_theme.scss */
+/* line 1419, stylesheets/_legacy_theme.scss */
 .wp-caption .wp-caption-text,
 .gallery-caption {
   padding: 0.8075em 1em;
   font-size: 14px;
-  font-size: 1.4rem;
   font-family: 'museo_sans', sans-serif;
   background: #e5e5e5;
   background: #e6e6e6;
 }
 
-/* line 1445, stylesheets/_legacy_theme.scss */
+/* line 1428, stylesheets/_legacy_theme.scss */
 .site-main .gallery {
   margin-bottom: 1.5em;
 }
 
-/* line 1447, stylesheets/_legacy_theme.scss */
+/* line 1430, stylesheets/_legacy_theme.scss */
 .gallery-caption {
   position: absolute;
   bottom: 0;
@@ -1757,13 +1723,13 @@ a.author-link {
   opacity: 0;
 }
 
-/* line 1463, stylesheets/_legacy_theme.scss */
+/* line 1446, stylesheets/_legacy_theme.scss */
 .gallery-item:hover .gallery-caption,
 .gallery-item:focus .gallery-caption {
   opacity: 1;
 }
 
-/* line 1466, stylesheets/_legacy_theme.scss */
+/* line 1449, stylesheets/_legacy_theme.scss */
 .site-main .gallery a img {
   display: block;
   max-width: 100%;
@@ -1772,7 +1738,7 @@ a.author-link {
   border: none;
 }
 
-/* line 1474, stylesheets/_legacy_theme.scss */
+/* line 1457, stylesheets/_legacy_theme.scss */
 .site-main .gallery-item {
   position: relative;
   float: left;
@@ -1783,14 +1749,14 @@ a.author-link {
   background: #333;
 }
 
-/* line 1484, stylesheets/_legacy_theme.scss */
+/* line 1467, stylesheets/_legacy_theme.scss */
 .site-main .gallery dd,
 .site-main .gallery figcaption {
   margin: 0;
 }
 
 /* Make sure embeds and iframes fit their containers */
-/* line 1492, stylesheets/_legacy_theme.scss */
+/* line 1475, stylesheets/_legacy_theme.scss */
 embed,
 iframe,
 object {
@@ -1798,36 +1764,36 @@ object {
 }
 
 /* Featured Images */
-/* line 1498, stylesheets/_legacy_theme.scss */
+/* line 1481, stylesheets/_legacy_theme.scss */
 .single-post-thumbnail {
   background: #b2b2b2 url(images/pattern.svg) repeat;
 }
 
-/* line 1500, stylesheets/_legacy_theme.scss */
+/* line 1483, stylesheets/_legacy_theme.scss */
 .front-index-thumbnail {
   margin-bottom: -3.2em;
 }
 
 @media screen and (max-width: 779px) {
-  /* line 1503, stylesheets/_legacy_theme.scss */
+  /* line 1486, stylesheets/_legacy_theme.scss */
   .front-index-thumbnail {
     margin-bottom: 0;
   }
 }
-/* line 1506, stylesheets/_legacy_theme.scss */
+/* line 1489, stylesheets/_legacy_theme.scss */
 .single-post-thumbnail img,
 .front-index-thumbnail img {
   display: block;
   margin: 0 auto;
 }
 
-/* line 1512, stylesheets/_legacy_theme.scss */
+/* line 1495, stylesheets/_legacy_theme.scss */
 .has-thumbnail {
   position: relative;
   margin-top: -8em;
 }
 
-/* line 1517, stylesheets/_legacy_theme.scss */
+/* line 1500, stylesheets/_legacy_theme.scss */
 .small-index-thumbnail {
   margin-top: -1em;
 }
@@ -1835,11 +1801,10 @@ object {
 /*--------------------------------------------------------------
 13 Footer
 --------------------------------------------------------------*/
-/* line 1523, stylesheets/_legacy_theme.scss */
+/* line 1506, stylesheets/_legacy_theme.scss */
 .site-footer {
   padding: 2em;
   font-size: 16px;
-  font-size: 1.6rem;
   font-family: 'museo_sans';
   color: #fff;
   color: white;
@@ -1847,18 +1812,18 @@ object {
   background: #303030;
 }
 
-/* line 1534, stylesheets/_legacy_theme.scss */
+/* line 1516, stylesheets/_legacy_theme.scss */
 .site-footer a {
   color: #fff;
   color: white;
 }
 
-/* line 1539, stylesheets/_legacy_theme.scss */
+/* line 1521, stylesheets/_legacy_theme.scss */
 .site-info {
   text-align: center;
 }
 
-/* line 1542, stylesheets/_legacy_theme.scss */
+/* line 1524, stylesheets/_legacy_theme.scss */
 .mas-button,
 .mas-button[type="submit"] {
   display: inline-block;
@@ -1880,7 +1845,7 @@ object {
   filter: none;
 }
 
-/* line 1563, stylesheets/_legacy_theme.scss */
+/* line 1545, stylesheets/_legacy_theme.scss */
 .mas-button:hover,
 .mas-button[type="submit"]:hover,
 .mas-button:active,
@@ -1893,7 +1858,7 @@ object {
   color: #2e3030;
 }
 
-/* line 1575, stylesheets/_legacy_theme.scss */
+/* line 1557, stylesheets/_legacy_theme.scss */
 .mas-button--primary,
 .mas-button--primary[type="submit"],
 input[type="submit"] {
@@ -1918,7 +1883,7 @@ input[type="submit"] {
   border-bottom-color: #daaf2d;
 }
 
-/* line 1600, stylesheets/_legacy_theme.scss */
+/* line 1582, stylesheets/_legacy_theme.scss */
 .mas-button--primary:hover,
 .mas-button--primary[type="submit"]:hover,
 .mas-button--primary:active,
@@ -1954,7 +1919,7 @@ body {
   font-family: museo_sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.6;
   background: transparent;
   color: #6a6d6d;
   border-top: 3px solid #72bf44;
@@ -1973,7 +1938,6 @@ body {
   clear: both;
   font-family: 'museo_sans', sans-serif;
   text-transform: uppercase;
-  padding-left: 7.7em;
 }
 
 /* line 11, stylesheets/layouts/_nav.scss */
@@ -2069,6 +2033,17 @@ body {
   background: #303030;
 }
 
+/* line 1, stylesheets/layouts/_about_us.scss */
+.l-about-us {
+  width: 50%;
+  margin: 1.5rem 0;
+}
+
+/* line 6, stylesheets/layouts/_about_us.scss */
+.l-about-us__content {
+  font-size: 0.875rem;
+}
+
 /* line 1, stylesheets/layouts/_footer.scss */
 .l-footer {
   height: 200px;
@@ -2081,4 +2056,10 @@ body {
   font-size: 0.875rem;
   margin-bottom: 0.375rem;
   text-align: right;
+}
+
+/* line 1, stylesheets/components/_logo.scss */
+.logo {
+  margin: 1.5rem 0rem;
+  width: 250px;
 }

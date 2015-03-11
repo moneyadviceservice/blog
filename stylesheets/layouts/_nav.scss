@@ -1,0 +1,90 @@
+.main-navigation {
+    position: relative;
+    display: block;
+    width: 100%;
+    clear: both;
+    font-family: 'museo_sans', sans-serif;
+    text-transform: uppercase;
+    // padding-left: 7.7em;
+}
+
+.main-navigation ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.main-navigation li {
+    position: relative;
+    float: left;
+}
+
+.main-navigation a {
+    display: block;
+    padding: 1.3em 1em;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1.3em;
+    color: #686c6c;
+  text-transform: none;
+}
+
+.main-navigation ul ul {
+    position: absolute;
+    left: 0;
+    z-index: 99999;
+    display: none;
+    float: left;
+    padding: 0;
+    background: #4d4d4d;
+    background: hsl(0, 0%, 30%);
+}
+
+.main-navigation ul ul ul {
+    top: 0;
+    left: 100%;
+}
+
+.main-navigation ul ul a { width: 200px; }
+
+.main-navigation ul ul li { }
+
+.main-navigation li:hover > a,
+.main-navigation li > a:focus {
+     text-decoration: underline;
+     color: #000;
+}
+
+.main-navigation ul ul :hover > a { }
+
+.main-navigation ul ul a:hover,
+.main-navigation ul ul a:focus {
+    background: #313131;
+    background: hsl(0, 0%, 19%);
+}
+
+.main-navigation ul li:hover > ul { display: block; }
+
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a,
+.main-navigation .current_page_item > a:hover,
+.main-navigation .current-menu-item > a:hover,
+.main-navigation .current_page_item > a:focus,
+.main-navigation .current-menu-item > a:focus {
+    font-weight: 700;
+    color: #2e3030;
+    background: white;
+}
+
+.main-navigation .current_page_ancestor {
+    background: #4d4d4d;
+    background: hsl(0, 0%, 30%);
+}
+
+.main-navigation ul ul .current_page_parent,
+.main-navigation .current_page_parent .current_page_item > a {
+    color: #fff;
+    color: hsl(0, 0%, 100%);
+    background: #313131;
+    background: hsl(0, 0%, 19%);
+}

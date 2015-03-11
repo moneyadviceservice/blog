@@ -128,7 +128,6 @@ input[type="reset"],
 input[type="submit"] {
     padding: 1em 2em;
     font-size: 16px;
-    font-size: 1.6rem;
     font-family: 'museo_sans';
     text-transform: uppercase;
     line-height: 1;
@@ -214,7 +213,6 @@ textarea {
     margin: 1rem 0;
     font-family: 'museo_sans', sans-serif;
     font-size: 16px;
-    font-size: 1.6rem;
     color: #fff;
     color: hsl(0, 0%, 100%);
     background: #84bd68;
@@ -257,7 +255,6 @@ a:active {
         padding: 0 1em;
         font-weight: normal;
         font-size: 14px;
-        font-size: 1.4rem;
         text-decoration: none;
         line-height: 3.75em;
         color: white;
@@ -405,7 +402,6 @@ a:active {
 .site-main .paging-navigation,
 .site-main .post-navigation {
     font-size: 18px;
-    font-size: 1.8rem;
     font-family: 'museo_sans', sans-serif;
     color: #000;
     color: hsl(0, 0%, 0%);
@@ -602,7 +598,6 @@ a:focus.page-numbers{
 .site-title {
     font-weight: 700;
     font-size: 40px;
-    font-size: 4.5rem;
     text-transform: uppercase;
     line-height: normal;
     padding-bottom: 1rem;
@@ -618,7 +613,6 @@ a:focus.page-numbers{
 .site-description {
     font-weight: 100;
     font-size: 20px;
-    font-size: 2rem;
 }
 
 .site-branding a { text-decoration: none; }
@@ -699,7 +693,6 @@ a:focus.page-numbers{
     float: right;
     padding: 1rem 2rem 1rem 4rem;
     font-size: 20px;
-    font-size: 2rem;
     background-color: #fff;
     border: 0;
 }
@@ -726,7 +719,6 @@ a:focus.page-numbers{
     margin: 0 0 4em;
     font-family: 'museo_sans', sans-serif;
     font-size: 16px;
-    font-size: 1.6rem;
 }
 
 .widget-title {
@@ -903,7 +895,6 @@ a:focus.page-numbers{
 
 blockquote cite {
     font-size: 18px;
-    font-size: 1.8rem;
 }
 
 /* Blockquotes */
@@ -953,50 +944,50 @@ blockquote.alignright {
 
     .entry-title {
         font-size: 32px;
-        font-size: 3.2rem;
+
         line-height: 1.3em;
     }
     .entry-content h1 {
         font-size: 28px;
-        font-size: 2.8rem;
+
     }
 
     .entry-content h2 {
         font-size: 26px;
-        font-size: 2.6rem;
+
     }
 
     .entry-content h3 {
         font-size: 24px;
-        font-size: 2.4rem;
+
     }
 
     .entry-content h4 {
         font-size: 22px;
-        font-size: 2.2rem;
+
     }
 
     .entry-content h5 {
         font-size: 20px;
-        font-size: 2rem;
+
     }
 
     .entry-content h6 {
         font-size: 18px;
-        font-size: 1.8rem;
+
     }
 
     .entry-content p,
     .entry-content ul,
     .entry-content ol  {
         font-size: 18px;
-        font-size: 1.8rem;
+
     }
 
 
     blockquote cite {
         font-size: 14px;
-        font-size: 1.4rem;
+
     }
 }
 
@@ -1065,7 +1056,6 @@ blockquote cite {
     margin: 1.3em 0 1em;
     font-family: 'museo_sans', sans-serif;
     font-size: 16px;
-    font-size: 1.6rem;
 }
 
 .category-list a {
@@ -1084,7 +1074,6 @@ blockquote cite {
     padding: 0;
     font-family: 'museo_sans', sans-serif;
     font-size: 14px;
-    font-size: 1.4rem;
 }
 
 .entry-meta a { font-weight: 600; }
@@ -1127,7 +1116,7 @@ blockquote cite {
     padding: 0;
     margin: 0;
     font-size: 16px;
-    font-size: 1.6rem;
+
     line-height: 2em;
     list-style-type: none;
 }
@@ -1161,7 +1150,6 @@ blockquote cite {
     margin: 0 4rem;
     font-weight: 900;
     font-size: 18px;
-    font-size: 1.8rem;
 }
 
 .continue-reading i { margin-left: .5em; }
@@ -1184,7 +1172,6 @@ blockquote cite {
 
 .attachment-caption {
     font-size: 14px;
-    font-size: 1.4rem;
     font-family: 'museo_sans', sans-serif;
 }
 
@@ -1196,7 +1183,6 @@ blockquote cite {
 .comments-title {
     font-weight: 900;
     font-size: 36px;
-    font-size: 3.6rem;
 }
 
 .comments-area > ol {
@@ -1218,12 +1204,10 @@ ol.children { list-style-type: none; }
     font-weight: 900;
     font-family: 'museo_sans', sans-serif;
     font-size: 20px;
-    font-size: 2rem;
 }
 
 .comment-metadata {
     font-size: 14px;
-    font-size:1.4rem;
 }
 
 .comment-meta { margin-bottom: 1em; }
@@ -1246,7 +1230,7 @@ ol.children { list-style-type: none; }
 .reply {
     font-weight: 600;
     font-size: 14px;
-    font-size: 1.4rem;
+
     font-family: 'museo_sans', sans-serif;
 }
 
@@ -1276,21 +1260,21 @@ ol.children { list-style-type: none; }
     margin-bottom: .5em;
     font-weight: 900;
     font-size: 30px;
-    font-size: 3rem;
+
 }
 
 .comment-form {
     padding-bottom: 4rem;
     font-family: 'museo_sans', sans-serif;
     font-size: 16px;
-    font-size: 1.6rem;
+
 }
 
 .comment-form textarea {
     font-family: 'museo_sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 18px;
-    font-size: 1.8rem;
+
 }
 
 .comment-form label { display: block; }
@@ -1313,7 +1297,7 @@ ol.children { list-style-type: none; }
     margin: 0 auto;
     font-weight: 700;
     font-size: 26px;
-    font-size: 2.6rem;
+
     color: #bfbfbf;
     color: hsl(0, 0%, 75%);
     text-align: center;
@@ -1349,7 +1333,7 @@ ol.children { list-style-type: none; }
 .author-title {
     margin-bottom: .8rem;
     font-size: 36px;
-    font-size: 3.6rem;
+
     line-height: 1;
 }
 
@@ -1363,7 +1347,7 @@ ol.children { list-style-type: none; }
     padding: .1rem 0 1.1rem;
     font-weight: 700;
     font-size: 16px;
-    font-size: 1.6rem;
+
 }
 
 .author-social-media { display: inline-block; }
@@ -1436,7 +1420,6 @@ a.author-link {
 .gallery-caption {
     padding: 0.8075em 1em;
     font-size: 14px;
-    font-size: 1.4rem;
     font-family: 'museo_sans', sans-serif;
     background: #e5e5e5;
     background: hsl(0, 0%, 90%);
@@ -1523,7 +1506,6 @@ object { max-width: 100%; }
 .site-footer {
     padding: 2em;
     font-size: 16px;
-    font-size: 1.6rem;
     font-family: 'museo_sans';
     color: #fff;
     color: hsl(0, 0%, 100%);
