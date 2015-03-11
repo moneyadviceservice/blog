@@ -10,13 +10,12 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-            <?php get_sidebar( 'footer' ); ?>
-		<div class="site-info">
-			
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+	<footer class="l-footer" role="contentinfo">
+    <div class="l-constrained">
+      <p class="l-footer__content">Making Money Advice was created by the development team at the <a href="https://www.moneyadviceservice.org.uk">Money Advice Service</a>.</p>
+      <p class="l-footer__content">For more information please <a href="mailto:development.team@moneyadviceservice.org.uk">get in touch with us</a></p>
+    </div>
+	</footer>
 
 <?php wp_footer(); ?>
 
