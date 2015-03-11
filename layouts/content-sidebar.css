@@ -8,8 +8,8 @@ Layout: Sidebar right
 }
 
 .single .site-content,
-.page .site-content { 
-    background: #fff; 
+.page .site-content {
+    background: #fff;
     background: hsl(0, 0%, 100%);
 }
 
@@ -77,9 +77,9 @@ Layout: Sidebar right
 
 @media screen and (max-width: 1820px) and (min-width: 1440px) {
     .front-index-thumbnail { margin-bottom: 0; }
-    
+
     .front-index-thumbnail .image-shifter { margin-bottom: -3.2em; }
-    
+
     .index-box { margin-top: 0; }
 }
 
@@ -98,7 +98,7 @@ Layout: Sidebar right
         margin-left: -380px;
         padding-left: 380px;
     }
-    
+
     .index-box,
     .entry-header,
     .page-header,
@@ -109,10 +109,10 @@ Layout: Sidebar right
     .comments-area,
     .paging-navigation,
     .author-index { margin-right: 0; }
-    
+
 }
 
-@media screen and (max-width: 1159px) {  
+@media screen and (max-width: 1159px) {
     .site-content .widget-area {
         float: none;
         width: auto;
@@ -136,6 +136,6 @@ Layout: Sidebar right
 @media screen and (min-width: 1440px) and (max-width: 1819px) {
     .image-shifter {
         float: right;
-        width: 1060px; 
+        width: 1060px;
     }
 }
