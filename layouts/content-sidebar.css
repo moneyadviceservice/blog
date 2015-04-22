@@ -35,7 +35,7 @@ Layout: Sidebar right
 .comments-area,
 .paging-navigation {
     position: relative;
-    max-width: 600px;
+    /*max-width: 600px;*/
     padding: 0 4rem;
     margin: 0 auto;
 }

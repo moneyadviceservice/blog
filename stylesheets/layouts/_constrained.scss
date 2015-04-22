@@ -1,3 +1,13 @@
 .l-constrained {
+  max-width: unit(1200);
+  margin: 0 auto;
+}
+
+.l-main {
+  margin: 0 5%;
+  margin-bottom: unit(24);
+}
+
+.l-header {
   margin: 0 5%;
 }

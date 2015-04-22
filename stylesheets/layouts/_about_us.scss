@@ -1,6 +1,11 @@
 .l-about-us {
-  width: 50%;
-  margin: unit(24) 0;
+  margin: unit(72) 5%;
+  padding-top: unit(24);
+  border-top: $default-border-style;
+
+  @include respond-to($mq-m) {
+    width: 50%;
+  }
 }
 
 .l-about-us__content {

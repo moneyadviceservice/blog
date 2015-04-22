@@ -6,9 +6,18 @@
 
 @import 'base/reset';
 @import 'base/type';
+@import 'base/links';
+@import 'base/headings';
+
 @import 'layouts/constrained';
 @import 'layouts/nav';
 @import 'layouts/about_us';
 @import 'layouts/footer';
+@import 'layouts/article';
+@import 'layouts/sidebar';
 
 @import 'components/logo';
+
+nav {
+  display: none;
+}

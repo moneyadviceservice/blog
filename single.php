@@ -7,35 +7,33 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<main id="main" class="l-main site-main" role="main">
 
-		<?php while ( have_posts() ) : the_post(); ?>
+	<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'content', 'single' ); ?>
-                    
-                        <?php 
-                        if ( get_the_author_meta( 'description' ) ) { 
-                            echo '<hr>';
-                            echo '<div class="author-index shorter">';
-                            get_template_part('inc/author','box');
-                            echo '</div>';
-                        }
-                        ?>
+		<?php get_template_part( 'content', 'single' ); ?>
 
-			<?php simone_post_nav(); ?>
+      <?php
+      if ( get_the_author_meta( 'description' ) ) {
+          echo '<hr>';
+          echo '<div class="author-index shorter">';
+          get_template_part('inc/author','box');
+          echo '</div>';
+      }
+      ?>
 
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template
-				if ( comments_open() || '0' != get_comments_number() ) :
-					comments_template();
-				endif;
-			?>
+		<?php simone_post_nav(); ?>
 
-		<?php endwhile; // end of the loop. ?>
+		<?php
+			// If comments are open or we have at least one comment, load up the comment template
+			if ( comments_open() || '0' != get_comments_number() ) :
+				comments_template();
+			endif;
+		?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+	<?php endwhile; // end of the loop. ?>
+
+	</main>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -7,3 +7,7 @@ body {
   color: $body-text-color;
   border-top: 3px solid $green;
 }
+
+pre {
+  overflow: scroll;
+}

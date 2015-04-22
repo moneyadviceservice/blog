@@ -942,40 +942,40 @@ blockquote.alignright {
     }
 
 
-    .entry-title {
-        font-size: 32px;
-
-        line-height: 1.3em;
-    }
-    .entry-content h1 {
-        font-size: 28px;
-
-    }
-
-    .entry-content h2 {
-        font-size: 26px;
-
-    }
-
-    .entry-content h3 {
-        font-size: 24px;
-
-    }
-
-    .entry-content h4 {
-        font-size: 22px;
-
-    }
-
-    .entry-content h5 {
-        font-size: 20px;
-
-    }
-
-    .entry-content h6 {
-        font-size: 18px;
-
-    }
+    // .entry-title {
+    //     font-size: 32px;
+    //
+    //     line-height: 1.3em;
+    // }
+    // .entry-content h1 {
+    //     font-size: 28px;
+    //
+    // }
+    //
+    // .entry-content h2 {
+    //     font-size: 26px;
+    //
+    // }
+    //
+    // .entry-content h3 {
+    //     font-size: 24px;
+    //
+    // }
+    //
+    // .entry-content h4 {
+    //     font-size: 22px;
+    //
+    // }
+    //
+    // .entry-content h5 {
+    //     font-size: 20px;
+    //
+    // }
+    //
+    // .entry-content h6 {
+    //     font-size: 18px;
+    //
+    // }
 
     .entry-content p,
     .entry-content ul,
@@ -1052,22 +1052,6 @@ blockquote cite {
 }
 
 /* Meta */
-.category-list {
-    margin: 1.3em 0 1em;
-    font-family: 'museo_sans', sans-serif;
-    font-size: 16px;
-}
-
-.category-list a {
-    color: #333;
-    color: hsl(0, 0%, 10%);
-}
-
-.category-list a:hover,
-.category-list a:focus {
-    color: #000;
-    color: hsl(0, 0%, 0%);
-}
 
 .entry-meta {
     margin-bottom: 2rem;
@@ -1076,34 +1060,8 @@ blockquote cite {
     font-size: 14px;
 }
 
-.entry-meta a { font-weight: 600; }
-
-/* Hides 'on' and '.' in post meta on wide screens. */
 .mobile-hide {
     display: inline;
-}
-
-/* Meta responsive */
-@media screen and (min-width: 1320px) {
-    .single .entry-meta {
-        position: absolute;
-        width: 120px;
-        margin-left: -160px;
-        text-align: right;
-    }
-
-    .single .byline,
-    .single .posted-on,
-    .single .comments-link {
-        display: block;
-        margin-bottom: 1em;
-    }
-
-    .single .author { display: block; }
-
-    .single .mobile-hide {
-        display: none;
-    }
 }
 
 .entry-footer {
@@ -1362,7 +1320,7 @@ ol.children { list-style-type: none; }
 .author-social-media a:focus { text-decoration: none; }
 
 a.author-link {
-    font-weight: 900;
+    font-weight: 500;
     font-family: 'museo_sans', sans-serif;
     color: #000;
     color: hsl(0, 0%, 0%);
