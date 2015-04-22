@@ -1,0 +1,12 @@
+a {
+  color: #1f6faa;
+  text-decoration: none;
+
+  &:visited {
+    color: #1f6faa;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

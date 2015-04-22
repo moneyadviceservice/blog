@@ -8,7 +8,7 @@ This is based on Simone.
 * Create a `mas` directory within `wp-content/themes/`
 * Clone this repo into ```wordpress/wp-content/themes/mas```:
 
-```sh
+```
 cd <wordpress installation>
 cd wp-content/themes
 mkdir mas

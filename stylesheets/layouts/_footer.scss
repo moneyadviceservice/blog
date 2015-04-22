@@ -1,0 +1,11 @@
+.l-footer {
+  height: 200px;
+  padding-top: unit(42);
+  background: $footer-background-color;
+}
+
+.l-footer__content {
+  font-size: unit(14);
+  margin: 0 5% unit(6) 5%;
+  text-align: right;
+}

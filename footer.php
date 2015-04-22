@@ -10,15 +10,26 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-            <?php get_sidebar( 'footer' ); ?>
-		<div class="site-info">
-			
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+  <div class="l-constrained">
+    <section class="l-about-us">
+      <div class="l-about-us__content">
+        <h2>About the MAS Dev Team</h2>
+        <p class="l-about-us__content">Welcome to the blog from the digital and development teams at the Money Advice Service.</p>
+				<p class="l-about-us__content">We write about things that we hope will be of interest to anyone who’s involved in making digital products. Whether you care about user research, UX and design, front-end development, backend development, testing, and everything in-between, there should be stories here for you. We write about the lessons we’ve learnt, the things that went well, the problems we’ve overcome, as well as those things we’re still figuring out.</p>
+      </div>
+    </section>
+  </div>
+
+	<footer class="l-footer" role="contentinfo">
+    <div class="l-constrained">
+      <p class="l-footer__content">Making Money Advice was created by the development team at the <a href="https://www.moneyadviceservice.org.uk">Money Advice Service</a>.</p>
+      <p class="l-footer__content">For more information please <a href="mailto:development.team@moneyadviceservice.org.uk">get in touch with us</a></p>
+    </div>
+	</footer>
 
 <?php wp_footer(); ?>
+
+<script src="/wp-content/themes/mas/js/prism.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -28,7 +39,6 @@
 
   ga('create', 'UA-4205932-17', 'auto');
   ga('send', 'pageview');
-
 </script>
 
 </body>
