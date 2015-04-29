@@ -1,0 +1,43 @@
+.l-article {
+  margin-top: unit(70);
+  margin-bottom: unit(24);
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.l-article__content,
+.l-article__header,
+.l-article__comments,
+.l-article__footer {
+  width: 100%;
+  max-width: 600px;
+}
+
+.category-list {
+    margin: 1.3em 0 1em;
+    font-family: 'museo_sans', sans-serif;
+    font-size: unit(12);
+}
+
+.category-list a {
+    color: #333;
+    color: hsl(0, 0%, 10%);
+}
+
+.category-list a:hover,
+.category-list a:focus {
+    color: #000;
+    color: hsl(0, 0%, 0%);
+}
+
+// .single .entry-meta {
+//   @include respond-to($mq-l) {
+//     position: absolute;
+//     width: 150px;
+//     left: 810px;
+//     text-align: left;
+//     margin-left: 0;
+//   }
+// }

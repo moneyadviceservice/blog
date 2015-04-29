@@ -1,0 +1,13 @@
+.l-about-us {
+  margin: unit(72) 5%;
+  padding-top: unit(24);
+  border-top: $default-border-style;
+
+  @include respond-to($mq-m) {
+    width: 50%;
+  }
+}
+
+.l-about-us__content {
+  font-size: unit(14);
+}

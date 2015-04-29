@@ -18,14 +18,14 @@ if ( post_password_required() ) {
 }
 ?>
 
-<div id="comments" class="comments-area">
+<div id="comments" class="l-article__comments">
 
 	<?php // You can start editing here -- including this comment! ?>
 
 	<?php if ( have_comments() ) : ?>
 		<h2 class="comments-title">
 			<?php
- 
+
 				printf( _nx( 'One comment:', '%1$s comments:', get_comments_number(), 'comments title', 'simone' ),
 					number_format_i18n( get_comments_number() )
                                 );
