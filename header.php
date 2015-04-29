@@ -132,7 +132,7 @@
       </div>
     	</div>
 
-    	<nav class="l-nav" role="navigation">
+    	<nav class="nav" role="navigation">
         <!-- <h1 class="menu-toggle"><a href="#"><?php _e( 'Menu', 'simone' ); ?></a></h1> -->
     		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
         <?php simone_social_menu(); ?>

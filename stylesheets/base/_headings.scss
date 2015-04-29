@@ -13,6 +13,11 @@ h6 {
   & a:visited {
     color: $heading-text-color;
   }
+
+  & a:hover,
+  & a:focus {
+    color: $heading-text-color;
+  }
 }
 
 h1 {

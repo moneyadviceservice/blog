@@ -6,7 +6,9 @@ a {
     color: #1f6faa;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     text-decoration: underline;
+    color: #1f6faa;
   }
 }
