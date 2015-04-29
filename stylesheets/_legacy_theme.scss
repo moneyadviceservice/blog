@@ -398,6 +398,10 @@ a:active {
 
 /* Paging navigation */
 
+.paging-navigation {
+  display: block;
+}
+
 .site-main .comment-navigation,
 .site-main .paging-navigation,
 .site-main .post-navigation {
@@ -460,7 +464,10 @@ a:active {
     .post-navigation .nav-next { margin-top: 4rem; }
 }
 
-.paging-navigation ul { margin: 0; }
+.paging-navigation ul {
+  margin: 0;
+  padding: 0;
+  }
 
 .paging-navigation li { display: inline; }
 

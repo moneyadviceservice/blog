@@ -50,10 +50,9 @@ function simone_paging_nav() {
 	if ( $links ) :
 
 	?>
-	<nav class="navigation paging-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'simone' ); ?></h1>
-			<?php echo $links; ?>
-	</nav><!-- .navigation -->
+	<nav class="pagination" role="navigation">
+		<?php echo $links; ?>
+	</nav>
 	<?php
 	endif;
 }
@@ -101,7 +100,7 @@ function simone_attachment_nav() {
 		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'simone' ); ?></h1>
 		<div class="nav-links">
                     <?php
-                        previous_image_link( false, '<div class="nav-previous"><h1>' . __( 'Previous Image', 'simone' ) . '</h1></div>' ); 
+                        previous_image_link( false, '<div class="nav-previous"><h1>' . __( 'Previous Image', 'simone' ) . '</h1></div>' );
                         next_image_link( false, '<div class="nav-next"><h1>' . __( 'Next Image', 'simone' ) . '</h1></div>' );
                     ?>
 		</div><!-- .nav-links -->
@@ -150,7 +149,7 @@ function simone_categorized_blog() {
 		$all_the_cool_cats = get_categories( array(
 			'fields'     => 'ids',
 			'hide_empty' => 1,
-			
+
 			// We only need to know if there is more than one category.
 			'number'     => 2,
 		) );
@@ -269,18 +268,18 @@ endif;
  * Works in place of the_post_thumbnail();
  */
 function simone_the_responsive_thumbnail($post_id) {
-    
+
     // Check to see if there is a transient available. If there is, use it.
     if ( false === ( $thumb_data = get_transient( 'featured_image_' . $post_id ) ) ) {
-        simone_set_image_transient($post_id);  
+        simone_set_image_transient($post_id);
         $thumb_data = get_transient( 'featured_image_' . $post_id );
     }
-    
+
     echo '<picture>';
     echo '<!--[if IE 9]><video style="display: none;"><![endif]-->';
     echo '<source srcset="' . $thumb_data['thumb_large'] . ', ' . $thumb_data['thumb_original'] . ' x2" media="(min-width: 800px)">';
-    echo '<source srcset="' . $thumb_data['thumb_medium'] . ', ' . $thumb_data['thumb_large'] . ' x2" media="(min-width: 400px)">'; 
-    echo '<source srcset="' . $thumb_data['thumb_small'] . ', ' . $thumb_data['thumb_medium'] . ' x2">'; 
+    echo '<source srcset="' . $thumb_data['thumb_medium'] . ', ' . $thumb_data['thumb_large'] . ' x2" media="(min-width: 400px)">';
+    echo '<source srcset="' . $thumb_data['thumb_small'] . ', ' . $thumb_data['thumb_medium'] . ' x2">';
     echo '<!--[if IE 9]></video><![endif]-->';
     echo '<img srcset="' . $thumb_data['thumb_small'] . ', ' . $thumb_data['thumb_medium'] . ' x2" alt="' . $thumb_data['thumb_alt'] . '">';
     echo '</picture>';
@@ -290,7 +289,7 @@ function simone_the_responsive_thumbnail($post_id) {
  * Create image transient to avoid looping through multiple image queries every time a post loads
  * Called any time a post is saved or updated right after existing transient is flushed.
  * Called by simone_the_responsive_thumbnail when no transient is set.
- * 
+ *
  * - Get the featured image ID
  * - Get the alt text (if no alt text is defined, set the alt text to the post title)
  * - Build an array with each of the available image sizes + the alt text
@@ -305,7 +304,7 @@ function simone_set_image_transient($post_id) {
     $thumb_large    = wp_get_attachment_image_src($attachment_id, 'large-thumb');
     $thumb_medium   = wp_get_attachment_image_src($attachment_id, 'medium-thumb');
     $thumb_small    = wp_get_attachment_image_src($attachment_id, 'small-thumb');
-        
+
     $thumb_data = array(
         'thumb_original' => $thumb_original[0],
         'thumb_large'    => $thumb_large[0],
