@@ -27,7 +27,7 @@
     <header id="masthead" class="l-header site-header" role="banner">
       <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'simone' ); ?></a>
 
-      <a href="/">
+      <a class="logo__link" href="/">
         <svg class="logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 283.5 44.8" enable-background="new 0 0 283.5 44.8" xml:space="preserve">
           <g>
           	<path fill="#2E3030" d="M138.3,20.9c0,3.6,2.8,4.1,4.2,4.1c0.5,0,0.7,0,0.7,0v-1.9c0,0-0.2,0-0.5,0c-0.8,0-2.3-0.3-2.3-2.5v-5h2.6
@@ -116,6 +116,7 @@
           		C27.9,36.2,24.2,39.9,24.2,44.5z"/>
           </g>
         </svg>
+        <p class="logo__text">Making Money Advice</p>
       </a>
 
     <?php

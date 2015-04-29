@@ -2027,8 +2027,31 @@ h6 {
 
 /* line 1, stylesheets/components/_logo.scss */
 .logo {
-  margin: 1.5rem 0rem;
   width: 250px;
+  margin-top: 1.5rem;
+  padding: 0.375rem 1.5rem 0.375rem 0;
+  border-right: 3px solid #72bf44;
+}
+
+/* line 9, stylesheets/components/_logo.scss */
+.logo__text {
+  position: relative;
+  display: inline-block;
+  top: -7px;
+  font-size: 24px;
+  margin-left: 24px;
+  font-weight: 500;
+  color: #2E3030;
+  margin-bottom: 0;
+}
+
+/* line 20, stylesheets/components/_logo.scss */
+.logo__link {
+  text-decoration: none;
+}
+/* line 23, stylesheets/components/_logo.scss */
+.logo__link:hover, .logo__link:focus {
+  text-decoration: none;
 }
 
 /* line 1, stylesheets/components/_nav.scss */

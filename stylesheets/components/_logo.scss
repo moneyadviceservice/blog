@@ -1,4 +1,27 @@
 .logo {
-  margin: unit(24) unit(0);
   width: 250px;
+  margin-top: unit(24);
+  // margin-bottom: unit(24);
+  padding: unit(6) unit(24) unit(6) 0;
+  border-right: 3px solid $green;
+}
+
+.logo__text {
+  position: relative;
+  display: inline-block;
+  top: -7px;
+  font-size: 24px;
+  margin-left: 24px;
+  font-weight: 500;
+  color: #2E3030;
+  margin-bottom: 0;
+}
+
+.logo__link {
+  text-decoration: none;
+  
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
 }
